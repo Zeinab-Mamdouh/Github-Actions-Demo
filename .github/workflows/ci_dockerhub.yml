@@ -30,4 +30,4 @@ jobs:
         with:
           scan-type: 'fs'
           scan-ref: '.'
-        trivy-config: trivy.yaml          sarif_file: 'trivy-results.sarif'
+          trivy-config: trivy.yaml          
